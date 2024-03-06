@@ -1,0 +1,37 @@
+
+body{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 80px;
+}
+nav .box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .box .logo{
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+nav .box .nav-links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav .box .nav-links a{
+    color: white;
+}
